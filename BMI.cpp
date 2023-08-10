@@ -31,13 +31,13 @@ void mainMenu()
 void dataEntry()
 {
 	//clears last prompt
-	clearportion(20,9,60,9);
+	clearportion(20,10,60,10);
 	//closes previous file
 	fclose(fp);
 	//int declarations
 	int dup=0;
 	//clears last screen
-	clearportion(20,4,62,7);
+	clearportion(20,4,62,8);
 	//opens file to read
 	fp=fopen("bmi.txt","r");
 	//for input
